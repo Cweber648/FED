@@ -11,3 +11,4 @@ What is asked-
 4) all social media icons put in. Not sure if they want the actual text or just the icon.
 5) added mobile responsiveness
 6) Added some footer effects for the links.....
+7) if given more time would have redone entire website to make it flexbox. and then added all responsiveness through flex box.

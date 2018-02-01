@@ -10,7 +10,6 @@ $(document).ready(function () {
     .prependTo('#image_1')
   }, 3000);
 
-
   $("#about_us_links").hide();
   $("#about_us").on("click", function(){
     $("#about_us_links").show();
@@ -25,5 +24,6 @@ $(document).ready(function () {
   $("#shop").on("click", function(){
     $("#shop_links").show();
   })
+
 })
 
