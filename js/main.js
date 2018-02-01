@@ -10,20 +10,22 @@ $(document).ready(function () {
     .prependTo('#image_1')
   }, 3000);
 
-  $("#about_us_links").hide();
   $("#about_us").on("click", function(){
-    $("#about_us_links").show();
+    $("#about-us-panel").toggle(function() {
+      $(this).css('height', '140px')
+    })
   })
 
-   $("#service_links").hide();
-  $("#service").on("click", function(){
-    $("#service_links").show();
+    $("#service").on("click", function(){
+      $("#service-panel").toggle(function() {
+      $(this).css('height', '140px')
+    })
   })
 
-   $("#shop_links").hide();
-  $("#shop").on("click", function(){
-    $("#shop_links").show();
+ $("#shop").on("click", function(){
+  $("#shop-expander").toggle(function() {
+    $(this).css('height', '140px')
+    })
   })
-
 })
 
